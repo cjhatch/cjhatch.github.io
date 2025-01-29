@@ -3,6 +3,55 @@
 
 @import "jekyll-theme-minimal";
 
+// New styles for the site header
+.site-header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header-content {
+  max-width: 1200px; // Increased to allow more space
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; // Add some padding on the sides
+}
+
+.site-title {
+  margin: 0;
+  font-size: 24px;
+  white-space: nowrap; // Ensures the title stays on one line
+  color: #fff; // Explicitly set the color to white
+}
+
+.site-header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.site-header nav ul li {
+  margin-left: 20px;
+}
+
+.site-header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.site-header nav ul li a:hover {
+  color: #ddd;
+}
 
 // Target the specific paragraphs in the header
 .wrapper header p {
@@ -74,6 +123,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
+  padding-top: 80px;
 }
 
 .wrapper {
@@ -83,6 +133,7 @@ body {
   margin: 0 auto;
   gap: 30px;
   padding: 50px 0;
+  max-width: 1200px;
 }
 
 header {
