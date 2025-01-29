@@ -20,13 +20,14 @@
 
 title: Christopher J. Hatch, Ph.D.
 #email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: | # this means to ignore newlines until "baseurl:"
   Bioinformatician
   University of California, Irvine
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: cjhatch.github.io
 url: "https://cjhatch.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
+
+# user info
 github_username:  cjhatch
 
 # add logo
