@@ -20,7 +20,7 @@
 
 title: Christopher J. Hatch, Ph.D.
 #email: your-email@example.com
-description: | # this means to ignore newlines until "baseurl:"
+description: |
   Bioinformatician
   University of California, Irvine
 baseurl: "" # the subpath of your site, e.g. /blog

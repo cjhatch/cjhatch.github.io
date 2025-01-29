@@ -5,4 +5,7 @@ title: Home
 
 # About me
 
-I am a passionate scientist, engineer, and bioinformatician with a strong focus on rare disease and oncology bioinformatics using next-generation sequencing. During my Ph.D. in the Hughes Lab I have utilized organ-on-a-chip models and patient data to unravel the intricate language of cellular communication. I am committed to advancing precision medicine by decoding cellular disruptions caused by diseases and contributing to transformative healthcare solutions.
+I am a passionate scientist, engineer, and bioinformatician in the Hughes Lab in the Department of Biomedical Engineering at UC Irvine. 
+
+My work focuses on leveraging next-generation sequencing to unravel the complex language of cellular communication that drives rare diseases and cancers. By coupling in vitro organ-on-a-chip models with patient data, I am decoding cellular disruptions and contributing to transformative healthcare solutions.
+
