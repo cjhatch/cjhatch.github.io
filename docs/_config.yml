@@ -31,6 +31,7 @@ url: "https://cjhatch.github.io" # the base hostname & protocol for your site, e
 github_username:  cjhatch
 linkedin_username: christopher-j-hatch
 linkedin_url: https://www.linkedin.com/in/christopher-j-hatch
+google_scholar_url: https://scholar.google.com/citations?user=jm5mPqEAAAAJ&hl=en
 
 # add logo
 logo : "/assets/images/cropped_headshot.png"

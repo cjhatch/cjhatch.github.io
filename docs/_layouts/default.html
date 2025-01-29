@@ -53,7 +53,12 @@
             <img src="{{ site.baseurl }}/assets/images/LI-In-Bug.png" alt="LinkedIn" style="width: 25px; height: 21px;">
           </a>
           {% endif %}
-        </p>
+          {% if site.google_scholar_url %}
+		  <a href="{{ site.google_scholar_url }}" target="_blank">
+			<img src="{{ site.baseurl }}/assets/images/Google_Scholar_logo.png" alt="Google Scholar" style="width: 21px; height: 21px;">
+		  </a>
+		  {% endif %}
+				</p>
       </header>
       <section>
 
