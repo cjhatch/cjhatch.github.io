@@ -53,6 +53,23 @@
   color: #ddd;
 }
 
+//adjustments for the sidebar
+.site-logo {
+  max-width: 100%;
+  margin-bottom: 20px; // Add some space below the logo
+}
+
+.sidebar-name {
+  font-size: 24px; // Adjust as needed
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.site-description {
+  line-height: 1.5;
+  margin-bottom: 10px !important;
+}
+
 // Target the specific paragraphs in the header
 .wrapper header p {
   margin: 0 !important;
@@ -128,20 +145,25 @@ body {
 
 .wrapper {
   display: flex;
-  flex: 1;
+  //flex: 1;
   width: 860px;
   margin: 0 auto;
-  gap: 30px;
+  margin-left: 0;
+  gap: 70px;
   padding: 50px 0;
   max-width: 1200px;
+  padding-left: 10px;
 }
 
 header {
-  width: 270px;
-  float: none;
+  width: 275px;
+  //flex-shrink: 0;
+  float: left;
   position: sticky;
   top: 0;
   align-self: flex-start;
+  padding-right: 10px !important;
+  padding-left: 0px !important;
 }
 
 .content-wrapper {
