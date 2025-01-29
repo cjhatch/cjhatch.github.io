@@ -1,0 +1,15 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+// Custom styles
+.description p {
+  margin: 0;  // Remove default paragraph margins
+  line-height: 1.2;  // Reduce line height (adjust this value as needed)
+}
+
+// Add extra space after the second line (UCI)
+.description p:nth-child(2) {
+  margin-bottom: 0.5em;  // Adjust this value to control space after UCI line
+}
