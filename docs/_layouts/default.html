@@ -34,10 +34,6 @@
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
-
         {% if site.show_downloads %}
         <ul class="downloads">
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
@@ -46,13 +42,18 @@
         </ul>
         {% endif %}
         
-        {% if site.linkedin_url %}
-		<p class="view">
-		  <a href="{{ site.linkedin_url }}" target="_blank">
-			<img src="{{ site.baseurl }}/assets/images/directory/LI-In-Bug.png" alt="LinkedIn" style="width: 20px; height: 20px;">
-		  </a>
-		</p>
-		{% endif %}
+        <p class="view social-links">
+          {% if site.github_username %}
+          <a href="https://github.com/{{ site.github_username }}" target="_blank">
+            <img src="{{ site.baseurl }}/assets/images/github-mark.png" alt="GitHub" style="width: 21px; height: 21px; margin-right: 10px;">
+          </a>
+          {% endif %}
+          {% if site.linkedin_url %}
+          <a href="{{ site.linkedin_url }}" target="_blank">
+            <img src="{{ site.baseurl }}/assets/images/LI-In-Bug.png" alt="LinkedIn" style="width: 25px; height: 21px;">
+          </a>
+          {% endif %}
+        </p>
       </header>
       <section>
 
