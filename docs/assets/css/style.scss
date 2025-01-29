@@ -8,7 +8,7 @@
 .wrapper header p {
   margin: 0 !important;
   padding: 0 !important;
-  line-height: 1.2 !important; // Adjust this value as needed
+  line-height: 2 !important; // Adjust this value as needed
   display: block !important;
 }
 
@@ -21,6 +21,7 @@
 .social-links {
   display: flex;
   align-items: center;
+  margin-bottom: 20 px;
 }
 
 .social-links a {
@@ -43,6 +44,10 @@
 
 
 // Resume download
+.resume-container {
+  margin-top: 20px; // Add space above resume button
+}
+
 .resume-link {
   display: inline-flex;
   align-items: center;
