@@ -58,11 +58,11 @@ body {
 footer {
   flex-shrink: 0;
   width: 100%;
-  background-color: #f4f4f4;
+  background-color: #ffffff;
   text-align: center;
   padding: 10px 0;
   position: relative;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -75,5 +75,5 @@ footer {
 }
 
 section {
-  padding-bottom: 50px; // Adjust this value as needed
+  padding-bottom: 15px; // Adjust this value as needed
 }
