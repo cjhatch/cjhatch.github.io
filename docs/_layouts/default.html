@@ -55,6 +55,14 @@
 		  </a>
 		  {% endif %}
 				</p>
+		{% if site.resume_url %}
+		<p class="view">
+		  <a href="{{ site.resume_url }}" target="_blank" class="resume-link">
+			<img src="{{ site.baseurl }}/files/Christopher_J_Hatch_Resume.pdf" alt="PDF" style="width: 20px; height: 20px; vertical-align: middle;">
+			<span style="margin-left: 5px;">Download Resume</span>
+		  </a>
+		</p>
+		{% endif %}
       </header>
       <div class ="content-wrapper">
 		  <section>

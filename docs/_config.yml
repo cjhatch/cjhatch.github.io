@@ -36,6 +36,9 @@ google_scholar_url: https://scholar.google.com/citations?user=jm5mPqEAAAAJ&hl=en
 # add logo
 logo : "/assets/images/cropped_headshot.png"
 
+# add resume download
+resume_url: /files/Christopher_J_Hatch_Resume.pdf
+
 # Build settings
 #theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
