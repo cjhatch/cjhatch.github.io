@@ -31,11 +31,11 @@ url: "https://cjhatch.github.io" # the base hostname & protocol for your site, e
 github_username:  cjhatch
 
 # Build settings
-theme: jekyll-theme-minimal
-#remote_theme: pages-themes/minimal@v0.2.0
-#plugins:
-#  - jekyll-feed
-#  - jekyll-remote-theme
+#theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
