@@ -21,7 +21,14 @@
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        {% if site.description %}
+		  {% assign desc_lines = site.description | newline_to_br | split: '<br />' %}
+		  {% for line in desc_lines %}
+			<p>{{ line }}</p>
+		  {% endfor %}
+		{% else %}
+		  <p>{{ site.github.project_tagline }}</p>
+		{% endif %}
 
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
