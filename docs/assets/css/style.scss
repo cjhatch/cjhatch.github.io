@@ -208,6 +208,22 @@ footer {
   }
 }
 
+// change education font size
+.education-entry {
+  margin-bottom: 20px;
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-top: 0;
+    line-height: 1.4;
+  }
+}
+
 // Ensure horizontal scrolling on very small screens
 html {
   overflow-x: auto;
