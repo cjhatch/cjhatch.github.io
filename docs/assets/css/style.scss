@@ -197,6 +197,7 @@ footer {
 @media print, screen and (max-width: 960px) {
   body {
     padding-top: 0;
+    min-width: auto;
   }
 
   .site-header {
